@@ -1,0 +1,83 @@
+/*Colors and Fonts*/
+#FFFFFF
+#03045E
+#00B4D8
+#90E0EF
+#CAF0F8
+
+
+body {
+	background-color: #FFFFFF;
+	color: #00B4D8;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+	font-family: Arial;
+	color: #00B4D8;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 32px
+}
+
+h1 {
+	font-size: 40px;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	color: #03045E;
+	font-size: 16px
+
+}
+a {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #90E0EF;
+	text-align: center;
+	
+}
+
+a:hover {
+	color: #CAF0F8;
+}
+
+#main_image {
+	border-radius: 50%;
+	width: 192px; 
+	position: center
+}
+
+.box {
+	margin: 80px;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	background: white;
+	text-align: center;	
+}
+
+.button-link {
+	background-color: #00B4D8;
+	color: white;
+	padding: 8px 24px;
+	margin-top: 20px;
+	border-radius: 4px;
+}
+
+.button-link:hover {
+	background-color: #CAF0F8;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	font-size: 40px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
